@@ -1,0 +1,622 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <style>
+
+  body {
+    font-family: Allegreya, 'Minion Pro', 'OFL Sorts Mill Goudy', Baskerville;
+    -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+       -moz-font-feature-settings:"onum" 1, "kern" 1, "liga" 1;
+       -moz-font-feature-settings:"onum=1, kern=1, liga=1";
+        -ms-font-feature-settings:"onum" 1, "kern" 1, "liga" 1;
+         -o-font-feature-settings:"onum" 1, "kern" 1, "liga" 1;
+    -webkit-font-feature-settings:"onum" 1, "kern" 1, "liga" 1;
+            font-feature-settings:"onum" 1, "kern" 1, "liga" 1;
+  }
+  abbr {
+    -moz-font-feature-settings:"kern" 1, "smcp" 1, "lnum" 1;
+    -moz-font-feature-settings:"kern=1, smcp=1, lnum=1";
+     -ms-font-feature-settings:"kern" 1, "smcp" 1, "lnum 1";
+      -o-font-feature-settings:"kern" 1, "smcp" 1, "lnum" 1;
+ -webkit-font-feature-settings:"kern" 1, "smcp" 1, "lnum" 1;
+         font-feature-settings:"kern" 1, "smcp" 1, "lnum" 1;
+  }
+  p {
+    orphans: 2;
+    widows: 2;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+  .letter {
+    margin: 1em 0 2em 2em;
+    text-align: right;
+  }
+  .letter > p {
+    text-align: justify;
+  }
+    .closing {
+      display: inline-block;
+      text-align: left;
+    }
+  .dateline,
+  .note,
+  span[lang] {
+    font-style: italic;
+  }
+  .meridiam {
+    font-size: 70%;
+  }
+  .separator {
+    width: 100%;
+    height: 0;
+    padding: 0;
+    border: 0;
+    margin: 2em auto;
+    color: #000;
+    background: #000;
+    text-align: center;
+  }
+  .separator:before {
+    content: "*       *       *       *       *";
+    white-space: pre;
+  }
+
+  /* headlines */
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  h1, hgroup {
+    text-align: center;
+  }
+  h2 {
+    font-size: 120%;
+  }
+    hgroup h2 {
+      margin-bottom: 0;
+    }
+    hgroup h3 {
+      margin-top: 0;
+    }
+  .book-title {
+    font-size: 220%;
+    font-family: 'Trajan Pro 3', 'Trajan Pro', Cochin;
+  }
+
+  @media screen {
+    body {
+      max-width: 30em;
+      margin: 11vh auto 22vh;
+      color: #333;
+      background: #fcfcfc;
+      font-size: 20px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .chapter {
+      margin-top: 11vh;
+    }
+  }
+  @media print {
+
+    body {
+      font-size: 11px;
+      text-align: justify;
+    }
+
+    .book-title {
+      page-break-after: always;
+    }
+    .chapter {
+      margin-right: .555555555in;
+      page-break-before: left;
+      page-break-after: left;
+    }
+    .no-after {
+      page-break-after: avoid;
+    }
+    .no-inside {
+      page-break-inside: avoid;
+    }
+    @page {
+      size: 5in 8in;
+      width: 5in;
+      height: 8in;
+    }
+    @page :first {
+      margin: 0.88888888in 0.555555555in 1.77777777in
+    }
+    @page :left {
+      margin: 0.88888888in 0.555555555in 1.77777777in 1.11111111in;
+      @top-left-corner {
+        content: counter(page);
+      }
+    }
+    @page :right {
+      margin: 0.88888888in 1.11111111in 1.77777777in 0.555555555in;
+
+      @top-right-corner {
+        content: counter(page);
+      }
+    }
+  }
+  </style>
+</head>
+<body>
+
+  <h1 class="book-title">DRACULA</h1>
+  <div class="chapter">
+
+    <h1 class="chapter-title">CHAPTER Ⅰ</h1>
+
+    <hgroup>
+      <h2>JONATHAN HARKER’S JOURNAL</h2>
+
+      <h3>(<span class="note">Kept in shorthand.</span>)</h3>
+    </hgroup>
+
+    <p><span class="dateline">3 May. Bistritz.</span>—&#8239;Left Munich 
+    at 8:35 <abbr class="meridiam">P.M.</abbr>, on 1st May, arriv&#173;ing 
+    at Vienna early next morn&#173;ing; should have ar&#173;rived at 6:46, 
+    but train was an hour late. Buda-Pesth seems a wonder&#173;ful place,
+    from the glimpse which I got of it from the train and the lit&#173;tle
+    I could walk through the streets. I feared to go very
+    far from the sta&#173;tion, as we had ar&#173;rived late and would start
+    as near the cor&#173;rect time as pos&#173;sible. 
+    The im&#173;pres&#173;sion I had was that we were leav&#173;ing the West
+    and en&#173;ter&#173;ing the East; the most west&#173;ern of splendid
+    bridges over the Danube, which is here of noble width and depth, took 
+    us among the tra&#173;di&#173;tions of Turk&#173;ish rule.
+    </p>
+
+    <p>We left in pretty good time, and came af&#173;ter night&#173;fall 
+    to Klausen&#173;burgh. Here I stopped for the night at the Hotel Royale.
+    I had for dinner, or rather supper, a chicken done up some
+    way with red pep&#173;per, which was very good but thirsty.
+    (<span class="note">Mem.</span>, get recipe for Mina.) I asked the waiter,
+    and he said it was called “pa&#173;pri&#173;ka hendl,” and that,
+    as it was a na&#173;tional dish, I should be able to get it anywhere along
+    the Carpathi&#173;ans. I found my smatter&#173;ing of Ger&#173;man very
+    useful here; in&#173;deed, I don’t know how I should be able
+    to get on with&#173;out it.
+    </p>
+
+    <p>Hav&#173;ing had some time at my disposal when in Lon&#173;don,
+    I had visited the Bri&#173;tish Mu&#173;seum, and made search
+    among the books and maps in the li&#173;brary 
+    re&#173;gard&#173;ing Trans&#173;ylvania; it had struck me that some
+    fore&#173;knowledge of the coun&#173;try could hardly fail to have some
+    im&#173;portance in deal&#173;ing with a no&#173;ble&#173;man
+    of that coun&#173;try. I find that the dis&#173;trict he named 
+    is in the ex&#173;treme east of the coun&#173;try, just 
+    on the bor&#173;ders of three states, Trans&#173;ylvania, 
+    Mol&#173;davia and Bukov&#173;ina, in the midst of the Carpathi&#173;an
+    moun&#173;tains; one of the wildest and least known por&#173;tions
+    of Eu&#173;rope. I was not able to light on any map or work giv&#173;ing 
+    the exact lo&#173;cality of the Castle Dracula, as there are no maps 
+    of this coun&#173;try as yet to compare with our own Ord&#173;nance
+    Sur&#173;vey maps; but I found that Bistritz, the post town named
+    by Count Dracula, is a fairly well-known place. I shall enter here some
+    of my notes, as they may re&#173;fresh my mem&#173;ory when I talk
+    over my trav&#173;els with Mina.
+    </p>
+
+    <p>In the pop&#173;ula&#173;tion of Trans&#173;ylvania there are four
+    dis&#173;tinct na&#173;tionalities: Saxons in the South, and mixed
+    with them the Wal&#173;lachs, who are the de&#173;scendants
+    of the Da&#173;cians; Mag&#173;yars in the West, and Szekelys in the East
+    and North. I am go&#173;ing among the lat&#173;ter, who claim 
+    to be descended from Attila and the Huns. This may be so, for when
+    the Mag&#173;yars con&#173;quered the coun&#173;try in the eleventh century
+    they found the Huns settled in it. I read that every known
+    su&#173;persti&#173;tion in the world is gathered into the horse&#173;shoe 
+    of the Carpathi&#173;ans, as if it were the centre of some sort
+    of imagina&#173;tive whirlpool; if so my stay may be very
+    interest&#173;ing. (<span class="note">Mem.</span>, I must ask the Count
+    all about them.)
+    </p>
+
+    <p>I did not sleep well, though my bed was com&#173;fort&#173;able enough,
+    for I had all sorts of queer dreams. There was a dog howl&#173;ing
+    all night un&#173;der my win&#173;dow, which may have had some&#173;thing
+    to do with it; or it may have been the pa&#173;pri&#173;ka,
+    for I had to drink up all the wa&#173;ter in my carafe, and was still
+    thirsty. To&#173;wards morn&#173;ing I slept and was wak&#173;ened
+    by the con&#173;tinuous knock&#173;ing at my door, so I guess I must have
+    been sleep&#173;ing soundly then. I had for break&#173;fast more
+    pa&#173;pri&#173;ka, and a sort of porridge of maize flour which they said
+    was “ma&#173;maliga,” and egg-plant stuffed with force&#173;meat, a very
+    excellent dish, which they call “impletata.” (<span class="note">Mem.</span>,
+    get recipe for this also.) I had to hurry break&#173;fast,
+    for the train started a lit&#173;tle be&#173;fore eight, or rather it ought
+    to have done so, for af&#173;ter rush&#173;ing to the sta&#173;tion at 7:30
+    I had to sit in the car&#173;riage for more than an hour
+    be&#173;fore we be&#173;gan to move. It seems to me that the fur&#173;ther
+    east you go the more un&#173;punctual are the trains. What ought they
+    to be in China?
+    </p>
+
+    <p>All day long we seemed to dawdle through a coun&#173;try which was full
+    of beauty of every kind. Sometimes we saw lit&#173;tle towns
+    or cas&#173;tles on the top of steep hills such as we see in old missals;
+    sometimes we ran by rivers and streams which seemed from the wide stony
+    mar&#173;gin on each side of them to be subject to great floods. It takes
+    a lot of wa&#173;ter, and runn&#173;ing strong, to sweep
+    the out&#173;side edge of a river clear. At every sta&#173;tion there were
+    groups of peo&#173;ple, sometimes crowds, and in all sorts of attire. Some
+    of them were just like the pea&#173;sants at home or those
+    I saw com&#173;ing through France and Ger&#173;many, with short jackets
+    and round hats and home-made trousers; but others were very
+    pic&#173;turesque. The women looked pretty, except when you got near them,
+    but they were very clumsy about the waist. They had all full white sleeves
+    of some kind or other, and most of them had big belts with a lot of strips
+    of some&#173;thing flut&#173;ter&#173;ing from them like the dresses
+    in a ballet, but of course there were petti&#173;coats un&#173;der them.
+    The strangest fig&#173;ures we saw were the Slovaks, who were more
+    bar&#173;barian than the rest, with their big cow-boy hats, great baggy
+    dirty-white trousers, white linen shirts, and enor&#173;mous heavy leather
+    belts, near&#173;ly a foot wide, all studded over with brass nails. They
+    wore high boots, with their trousers tucked into them, and had long black
+    hair and heavy black moustach&#173;es. They are very pic&#173;turesque,
+    but do not look prepossess&#173;ing. On the stage they would
+    be set down at once as some old Orien&#173;tal band of brigands. They are,
+    however, I am told, very harm&#173;less and rather want&#173;ing
+    in natu&#173;ral self-assertion.
+    </p>
+
+    <p>It was on the dark side of twi&#173;light when we got to Bistritz, which
+    is a very interest&#173;ing old place. Be&#173;ing practically
+    on the fron&#173;tier&#65279;—&#8239;for the Borgo
+    Pass leads from it into Bukovina&#65279;—&#8239;it has had a very stormy
+    exis&#173;tence, and it cer&#173;tainly shows marks of it. Fifty years
+    ago a series of great fires took place, which made terri&#173;ble havoc
+    on five sep&#173;arate occasions. At the very beginn&#173;ing
+    of the sev&#173;enteenth century it un&#173;der&#173;went a siege of three
+    weeks and lost 13,000 peo&#173;ple, the ca&#173;sualties
+    of war proper be&#173;ing assisted by famine and disease.
+    </p>
+
+    <p>Count Dracula had direct&#173;ed me to go to the Golden Krone
+    Ho&#173;tel, which I found, to my great delight, to be thor&#173;oughly
+    old-fashioned, for of course I wanted to see all I could
+    of the ways of the coun&#173;try. I was evi&#173;dently ex&#173;pected,
+    for when I got near the door I faced a cheery-look&#173;ing el&#173;derly
+    woman in the usual pea&#173;sant dress&#65279;—&#8239;white
+    un&#173;dergarment with long dou&#173;ble apron, front, and back,
+    of coloured stuff fitt&#173;ing almost too tight for mod&#173;esty. When
+    I came close she bowed and said, “The Herr Englishman?” “Yes,” I said,
+    “Jonathan Harker.” She smiled, and gave some message to an el&#173;derly
+    man in white shirt-sleeves, who had followed her to the door. He went,
+    but imme&#173;diatly re&#173;turned with a letter:&#65279;—
+    </p>
+
+    <figure class="letter">
+      <p>“My Friend.&#65279;—&#8239;Welcome to the Carpathi&#173;ans.
+        I am anxiously ex&#173;pect&#173;ing you. Sleep well to-night. At three
+        to-mor&#173;row the diligence will start for Bukovina; a place
+        on it is kept for you. At the Borgo Pass my car&#173;riage will await
+        you and will br&#173;ing you to me. I trust that your jour&#173;ney
+        from Lon&#173;don has been a happy one, and that you will enjoy your
+        stay in my beautiful land.
+      </p>
+
+      <figcaption class="clos&#173;ing no-inside no-before">
+        “Your friend,<br>
+        <br>
+        “DRACULA.”
+      </figcaption>
+    </figure>
+
+    <p><span class="dateline">4 May.</span>—&#8239;I found that my landlord
+    had got a letter from the Count, di&#173;rect&#173;ing him to se&#173;cure
+    the best place on the coach for me; but on mak&#173;ing inquiries
+    as to details he seemed some&#173;what reti&#173;cent, and pre&#173;tended
+    that he could not un&#173;der&#173;stand my Ger&#173;man. This could
+    not be true, because up to then he had un&#173;der&#173;stood
+    it per&#173;fectly; at least, he an&#173;swered my ques&#173;tions
+    exact&#173;ly as if he did. He and his wife, the old lady
+    who had re&#173;ceived me, looked at each other in a fright&#173;ened sort
+    of way. He mumbled out that the money had been sent in a letter, and that
+    was all he knew. When I asked him if he knew Count Dracula, and could
+    tell me anything of his cas&#173;tle, both he and his wife crossed
+    themselves, and, say&#173;ing that they knew no&#173;thing at all, simply
+    re&#173;fused to speak fur&#173;ther. It was so near the time
+    of start&#173;ing that I had no time to ask any one else,
+    for it was all very myste&#173;rious
+    and not by any means com&#173;fort&#173;ing.
+    </p>
+
+    <p>Just be&#173;fore I was leav&#173;ing, the old lady came up to my room
+    and said in a very hysterical way:
+    </p>
+
+    <p>“Must you go? Oh! young Herr, must you go?” She was in such an excited
+    state that she seemed to have lost her grip of what Ger&#173;man she knew,
+    and mixed it all up with some other language which I did not know at all.
+    I was just able to follow her by ask&#173;ing many ques&#173;tions. When
+    I told her that I must go at once, and that I was engaged on important
+    busi&#173;ness, she asked again:
+    </p>
+
+    <p>“Do you know what day it is?” I an&#173;swered that it was the fourth
+    of May. She shook her head as she said again:
+    </p>
+
+    <p>“Oh, yes! I know that! I know that, but do you know what day it is?”
+    On my say&#173;ing that I did not un&#173;der&#173;stand, she went on:
+    </p>
+
+    <p>“It is the eve of St. George’s Day. Do you not know that to-night, when
+    the clock strikes midnight, all the evil things in the world will have
+    full sway? Do you know where you are go&#173;ing,
+    and what you are go&#173;ing to?” She was in such evi&#173;dent distress
+    that I tried to com&#173;fort her, but with&#173;out effect. Finally
+    she went down on her knees and implored me not to go; at least to wait
+    a day or two be&#173;fore start&#173;ing. It was all very ridiculous
+    but I did not feel com&#173;fort&#173;able. However, there was business
+    to be done, and I could allow no&#173;thing to interfere with it.
+    I therefore tried to raise her up, and said, as gravely as I could,
+    that I thanked her, but my duty was imperative, and that I must go.
+    She then rose and dried her eyes, and tak&#173;ing a crucifix
+    from her neck offered it to me. I did not know what to do, for,
+    as an English Church&#173;man, I have been taught to regard such things
+    as in some measure idolatrous, and yet it seemed so ungracious to refuse
+    an old lady mean&#173;ing so well and in such a state of mind. She saw,
+    I suppose, the doubt in my face, for she put the rosary round my neck,
+    and said, “For your mother’s sake,” and went out of the room.
+    I am writ&#173;ing up this part of the diary whilst I am wait&#173;ing
+    for the coach, which is, of course, late; and the crucifix is still
+    round my neck. Whether it is the old lady’s fear, or the many ghostly
+    tra&#173;di&#173;tions of this place, or the crucifix itself,
+    I do not know, but I am not feel&#173;ing near&#173;ly as easy in my mind
+    as usual. If this book should ever reach Mina be&#173;fore I do,
+    let it br&#173;ing my good-bye. Here comes the coach!
+    </p>
+
+    <hr class="separator">
+
+    <p><span class="dateline">5 May. The Castle.</span>—&#8239;The grey
+    of the morn&#173;ing has passed, and the sun is high over the distant
+    horizon, which seems jagged, whether with trees or hills I know not,
+    for it is so far off that big things and lit&#173;tle are mixed.
+    I am not sleepy, and, as I am not to be called till I awake,
+    natu&#173;rally I write till sleep comes. There are many odd things
+    to put down, and, lest who reads them may fancy that I dined too well
+    be&#173;fore I left Bistritz, let me put down my dinner exact&#173;ly.
+    I dined on what they called “robber steak”&#65279;—&#8239;bits of bacon,
+    onion, and beef, seasoned with red pepper, and strung on sticks and roasted
+    over the fire, in the simple style of the Lon&#173;don cat’s meat! The wine
+    was Golden Mediasch, which produces a queer st&#173;ing on the tongue,
+    which is, however, not disagreeable. I had only a couple of glasses
+    of this, and no&#173;thing else.
+    </p>
+
+    <p>When I got on the coach the driver had not taken his seat,
+    and I saw him talk&#173;ing with the landlady. They were evi&#173;dently talk&#173;ing of me, for every
+    now and then they looked at me, and some of the peo&#173;ple who were sitt&#173;ing
+    on the bench out&#173;side the door&#65279;—&#8239;which they call by a name mean&#173;ing
+    “word-bearer”—came and listened, and then looked at me, most of them
+    pity&#173;ingly. I could hear a lot of words often repeated, queer words,
+    for there were many na&#173;tionalities in the crowd; so I quietly got my polyglot
+    dictionary from my bag and looked them out. I must say they were not cheer&#173;ing to me,
+    for amongst them were “Ordog”&#65279;—&#8239;Satan, “pokol”&#65279;—&#8239;hell,
+    “stregoica”&#65279;—&#8239;witch, “vrolok” and “vlkoslak”&#65279;—&#8239;both of which mean the same
+    thing, one be&#173;ing Slovak and the other Servian for some&#173;thing that is either
+    were-wolf or vampire. (<span class="note">Mem.</span>, I must ask the Count about these su&#173;persti&#173;tions)
+    </p>
+
+    <p>When we started, the crowd round the inn door, which had by this time
+    swelled to a considerable size, all made the sign of the cross and pointed
+    two f&#173;ingers to&#173;wards me. With some difficulty I got a fellow-passenger
+    to tell me what they meant; he would not an&#173;swer at first, but on learn&#173;ing
+    that I was English, he explained that it was a charm or guard against the evil eye.
+    This was not very pleas&#173;ant for me,
+    just start&#173;ing for an unknown place to meet an unknown man; but every
+    one seemed so kind-hearted, and so sorrowful, and so sympathetic
+    that I could not but be touched. I shall never forget the last glimpse which I had of the inn-yard and its crowd of pic&#173;turesque fig&#173;ures, all cross&#173;ing
+    themselves, as they stood round the wide archway, with its back&#173;ground of rich foliage of oleander and orange trees in green tubs clustered in the centre of the yard. Then our driver, whose wide linen drawers covered
+    the whole front of the box-seat&#65279;—&#8239;“gotza” they call them&#65279;—&#8239;cracked his big whip over his four small horses, which ran abreast, and we set off on our jour&#173;ney.
+    </p>
+
+    <p>I soon lost sight and recollection of ghostly fears in the beauty of the scene as we drove along, although had I known the language, or rather
+    languages, which my fellow-passengers were speak&#173;ing, I might not have
+    been able to throw them off so easily. Before us lay a green slop&#173;ing
+    land full of forests and woods, with here and there steep hills, crowned
+    with clumps of trees or with farmhouses, the blank gable end to the road. There was everywhere a bewilder&#173;ing mass of fruit blossom&#65279;—&#8239;apple,
+    plum, pear, cherry; and as we drove by I could see the green grass un&#173;der
+    the trees spangled with the fallen petals. In and out amongst these
+    green hills of what they call here the “Mittel Land” ran the road,
+    los&#173;ing itself as it swept round the grassy curve, or was shut out by the straggl&#173;ing ends of pine woods, which here and there ran down the hillsides like tongues of flame. The road was rugged, but still we seemed to fly over it with a feverish haste. I could not un&#173;der&#173;stand then
+    what the haste meant, but the driver was evi&#173;dently bent on los&#173;ing no time in reach&#173;ing Borgo Prund. I was told that this road is in summertime
+    excellent, but that it had not yet been put in order af&#173;ter the winter
+    snows. In this respect it is different from the general run of roads in the Carpathi&#173;ans, for it is an old tra&#173;dition that they are not to be kept
+    in too good order. Of old the Hospadars would not repair them, lest the Turk should think that they were prepar&#173;ing to br&#173;ing in foreign troops,
+    and so hasten the war which was always really at load&#173;ing point.
+    </p>
+
+    <p>Beyond the green swell&#173;ing hills of the Mittel Land rose mighty slopes
+    of forest up to the lofty steeps of the Carpathi&#173;ans themselves. Right
+    and left of us they towered, with the af&#173;ternoon sun fall&#173;ing full upon
+    them and br&#173;inging out all the glorious colours of this beautiful range,
+    deep blue and purple in the shadows of the peaks, green and brown where
+    grass and rock m&#173;ingled, and an endless perspective of jagged rock and pointed crags, till these were themselves lost in the distance, where
+    the snowy peaks rose grandly. Here and there seemed mighty rifts in the moun&#173;tains, through which, as the sun be&#173;gan to sink, we saw now and again
+    the white gleam of fall&#173;ing wa&#173;ter. One of my companions touched my arm as we swept round the base of a hill and opened up the lofty, snow-covered
+    peak of a moun&#173;tain, which seemed, as we wound on our serpentine way, to be right be&#173;fore us:&#65279;—
+    </p>
+
+    <p class="no-inside">“Look! Isten szek!”&#65279;—&#8239;“God’s seat!”&#65279;—&#8239;and he crossed
+    him&#173;self reverently.
+    </p>
+
+    <p>As we wound on our endless way, and the sun sank lower and lower behind
+    us, the shadows of the even&#173;ing be&#173;gan to creep round us. This was emphasised by the fact that the snowy moun&#173;tain-top still held the sunset, and seemed to glow out with a delicate cool pink. Here and there
+    we passed Cszeks and Slovaks, all in pic&#173;turesque attire, but I noticed
+    that goitre was painfully prevalent. By the roadside were many crosses,
+    and as we swept by, my companions all crossed themselves. Here and there
+    was a pea&#173;sant man or woman kneel&#173;ing be&#173;fore a shrine, who did not even
+    turn round as we approached, but seemed in the self-surrender of devotion to have neither eyes nor ears for the outer world. There were
+    many things new to me: for instance, hay-ricks in the trees, and here
+    and there very beautiful masses of weep&#173;ing birch, their white stems
+    shin&#173;ing like silver through the delicate green of the leaves. Now and again we passed a leiter-wagon&#65279;—&#8239;the ordinary pea&#173;sant’s cart&#65279;—&#8239;with its long, snake-like vertebra, calculated to suit the inequalities of the road. On this were sure to be seated quite a group of home-com&#173;ing
+    pea&#173;sants, the Cszeks with their white, and the Slovaks with their
+    coloured, sheepskins, the lat&#173;ter carry&#173;ing lance-fashion their long
+    staves, with axe at end. As the even&#173;ing fell it be&#173;gan to get very cold,
+    and the grow&#173;ing twi&#173;light seemed to merge into one dark mistiness the gloom of the trees, oak, beech, and pine, though in the valleys which
+    ran deep be&#173;tween the spurs of the hills, as we ascended through the Pass, the dark firs stood out here and there against the back&#173;ground of late-ly&#173;ing snow. Sometimes, as the road was cut through the pine woods
+    that seemed in the darkness to be clos&#173;ing down upon us, great masses of greyness, which here and there bestrewed the trees, produced a peculiarly weird and solemn effect, which carried on the thoughts and grim fancies engendered earlier in the even&#173;ing, when the fall&#173;ing sunset
+    threw into strange relief the ghost-like clouds which amongst the Carpathi&#173;ans seem to wind ceaselessly through the valleys. Sometimes the hills were so steep that, despite our driver’s haste, the horses could
+    only go slowly. I wished to get down and walk up them, as we do at home,
+    but the driver would not hear of it. “No, no,” he said; “you must not walk here; the dogs are too fierce”; and then he added, with what he evi&#173;dently meant for grim pleas&#173;ant&#173;ry&#8203;—&#8239;for he looked round to catch the approv&#173;ing smile of the rest&#65279;—&#8239;“and you may have enough of such matters
+    be&#173;fore you go to sleep.” The only stop he would make was a moment’s
+    pause to light his lamps.
+    </p>
+
+    <p>When it grew dark there seemed to be some excitement amongst the passengers, and they kept speak&#173;ing to him, one af&#173;ter the other, as though urg&#173;ing him to fur&#173;ther speed. He lashed the horses unmercifully
+    with his long whip, and with wild cries of encouragement urged them on to fur&#173;ther exertions. Then through the darkness I could see a sort of patch of grey light ahead of us, as though there were a cleft in the hills. The excitement of the passengers grew greater; the crazy coach
+    rocked on its great leather spr&#173;ings, and swayed like a boat tossed on a stormy sea. I had to hold on. The road grew more level, and we appeared
+    to fly along. Then the moun&#173;tains seemed to come nearer to us on each
+    side and to frown down upon us; we were en&#173;ter&#173;ing on the Borgo Pass. One by one several of the passengers offered me gifts, which they pressed
+    upon me with an earnestness which would take no denial; these were
+    cer&#173;tainly of an odd and varied kind, but each was given in simple good
+    faith, with a kindly word, and a bless&#173;ing, and that strange mixture of fear-mean&#173;ing movements which I had seen out&#173;side the hotel at Bistritz&#65279;—&#8239;the sign of the cross and the guard against the evil eye.
+    Then, as we flew along, the driver leaned for&#173;ward, and on each side the passengers, cran&#173;ing over the edge of the coach, peered eagerly into the darkness. It was evi&#173;dent that some&#173;thing very excit&#173;ing was either
+    happen&#173;ing or ex&#173;pected, but though I asked each passenger, no one would
+    give me the slightest explana&#173;tion. This state of excitement kept on for some lit&#173;tle time; and at last we saw be&#173;fore us the Pass open&#173;ing out on the eastern side. There were dark, roll&#173;ing clouds over&#173;head, and in the air the heavy, oppressive sense of thun&#173;der. It seemed as though the moun&#173;tain range had sep&#173;arated two at&#173;mo&#173;spheres, and that now we had got into the thun&#173;der&#173;ous one. I was now myself look&#173;ing out for the conveyance
+    which was to take me to the Count. Each moment I ex&#173;pected to see the glare of lamps through the blackness; but all was dark. The only light
+    was the flicker&#173;ing rays of our own lamps, in which the steam from our hard-driven horses rose in a white cloud. We could see now the sandy
+    road ly&#173;ing white be&#173;fore us, but there was on it no sign of a vehicle.
+    The passengers drew back with a sigh of gladness, which seemed to mock
+    my own disappointment. I was already think&#173;ing what I had best do, when
+    the driver, look&#173;ing at his watch, said to the others some&#173;thing which I could hardly hear, it was spoken so quietly and in so low a tone; I thought it was “An hour less than the time.” Then turn&#173;ing to me, he said
+    in Ger&#173;man worse than my own:&#65279;—
+    </p>
+
+    <p>“There is no car&#173;riage here. The Herr is not ex&#173;pected af&#173;ter all. He will
+    now come on to Bukovina, and re&#173;turn to-mor&#173;row or the next day; better
+    the next day.” Whilst he was speak&#173;ing the horses be&#173;gan to neigh and snort and plunge wildly, so that the driver had to hold them up. Then,
+    amongst a chorus of screams from the pea&#173;sants and a universal cross&#173;ing
+    of themselves, a calèche, with four horses, drove up behind us, overtook
+    us, and drew up beside the coach. I could see from the flash of our lamps, as the rays fell on them, that the horses were coal-black and splendid animals. They were driven by a tall man, with a long brown
+    beard and a great black hat, which seemed to hide his face from us. I could only see the gleam of a pair of very bright eyes, which seemed red in the lamp&#173;light, as he turned to us. He said to the driver:&#65279;—
+    </p>
+
+    <p class="no-after no-inside">“You are early to-night, my friend.” The man stam&#173;mered in reply:&#65279;—
+    </p>
+
+    <p class="no-inside">“The English Herr was in a hurry,” to which the strang&#173;er replied:&#65279;—
+    </p>
+
+    <p>“That is why, I suppose, you wished him to go on to Bukovina. You cannot
+    deceive me, my friend; I know too much, and my horses are swift.”
+    As he spoke he smiled, and the lamp&#173;light fell on a hard-look&#173;ing
+    mouth, with very red lips and sharp-look&#173;ing teeth, as white as ivory.
+    One of my companions whispered to another the line
+    from Burger’s “<cite>Lenore</cite>”:&#65279;—
+    </p>
+      <blockquote class="no-inside">
+        <span lang="de">“Denn die Todten reiten schnell”</span>—<br>
+        (“For the dead travel fast.”)
+      </blockquote>
+
+    <p>The strange driver evi&#173;dently heard the words, for he looked up with a gleam&#173;ing smile. The passenger turned his face away, at the same time
+    putt&#173;ing out his two f&#173;ingers and cross&#173;ing him&#173;self. “Give me the Herr’s
+    luggage,” said the driver; and with exceed&#173;ing alacrity my bags were
+    handed out and put in the calèche. Then I descended from the side of the coach, as the calèche was close alongside, the driver help&#173;ing me with a hand which caught my arm in a grip of steel; his strength must have been
+    prodigious. Without a word he shook his reins, the horses turned, and we swept into the darkness of the Pass. As I looked back I saw the steam
+    from the horses of the coach by the light of the lamps, and projected
+    against it the fig&#173;ures of my late companions cross&#173;ing themselves. Then
+    the driver cracked his whip and called to his horses, and off they swept
+    on their way to Bukovina. As they sank into the darkness I felt a strange chill, and a lonely feel&#173;ing came over me; but a cloak was thrown
+    over my shoulders, and a rug across my knees, and the driver said in excellent Ger&#173;man:&#65279;—
+    </p>
+
+    <p>“The night is chill, mein Herr, and my master the Count bade me take all care of you. There is a flask of slivovitz (the plum brandy of the coun&#173;try) un&#173;derneath the seat, if you should require it.” I did not take
+    any, but it was a com&#173;fort to know it was there all the same. I felt a lit&#173;tle strangely, and not a lit&#173;tle fright&#173;ened. I think had there been
+    any alternative I should have taken it, instead of prosecut&#173;ing that
+    unknown night jour&#173;ney. The car&#173;riage went at a hard pace straight along,
+    then we made a complete turn and went along another straight road. It seemed to me that we were simply go&#173;ing over and over the same ground
+    again; and so I took note of some salient point, and found that this was so. I would have liked to have asked the driver what this all meant, but I really feared to do so, for I thought that, placed as I was, any protest would have had no effect in case there had been an intention to delay. By-and-by, however, as I was curious to know how time was pass&#173;ing, I struck a match, and by its flame looked at my watch; it was within a few minutes of midnight. This gave me a sort of shock, for I suppose the general su&#173;persti&#173;tion about midnight was increased by my recent experiences. I waited with a sick feel&#173;ing of suspense.
+    </p>
+
+    <p>Then a dog be&#173;gan to howl somewhere in a farmhouse far down the road&#65279;—&#8239;a
+    long, agonised wail&#173;ing, as if from fear. The sound was taken up by another dog, and then another and another, till, borne on the wind which
+    now sighed softly through the Pass, a wild howl&#173;ing be&#173;gan, which seemed
+    to come from all over the coun&#173;try, as far as the imagina&#173;tion could grasp
+    it through the gloom of the night. At the first howl the horses be&#173;gan to strain and rear, but the driver spoke to them sooth&#173;ingly, and they
+    quieted down, but shivered and sweated as though af&#173;ter a runaway from
+    sudden fright. Then, far off in the distance, from the moun&#173;tains on each
+    side of us be&#173;gan a louder and a sharper howl&#173;ing&#8203;—&#8239;that of wolves&#8203;—&#8239;which
+    affected both the horses and myself in the same way&#65279;—&#8239;for I was minded to jump from the calèche and run, whilst they reared again and plunged
+    madly, so that the driver had to use all his great strength to keep them
+    from bolt&#173;ing. In a few minutes, however, my own ears got accustomed to the sound, and the horses so far became quiet that the driver was able
+    to descend and to stand be&#173;fore them. He petted and soothed them, and whispered some&#173;thing in their ears, as I have heard of horse-tamers
+    do&#173;ing, and with extraordinary effect, for un&#173;der his caresses they became
+    quite manageable again, though they still trembled. The driver again
+    took his seat, and shak&#173;ing his reins, started off at a great pace. This
+    time, af&#173;ter go&#173;ing to the far side of the Pass, he suddenly turned down a narrow roadway which ran sharply to the right.
+    </p>
+
+    <p>Soon we were hemmed in with trees, which in places arched right over the roadway till we passed as through a tunnel; and again great frown&#173;ing
+    rocks guarded us boldly on either side. Though we were in shelter, we could hear the ris&#173;ing wind, for it moaned and whistled through the rocks, and the branches of the trees crashed together as we swept along.
+    It grew colder and colder still, and fine, powdery snow be&#173;gan to fall,
+    so that soon we and all around us were covered with a white blanket. The keen wind still carried the howl&#173;ing of the dogs, though this grew
+    fainter as we went on our way. The bay&#173;ing of the wolves sounded nearer
+    and nearer, as though they were clos&#173;ing round on us from every side. I grew dreadfully afraid, and the horses shared my fear. The driver,
+    however, was not in the least disturbed; he kept turn&#173;ing his head to left and right, but I could not see anyth&#173;ing through the darkness.
+    </p>
+
+    <p>Suddenly, away on our left, I saw a faint flicker&#173;ing blue flame. The driver saw it at the same moment; he at once checked the horses, and,
+    jump&#173;ing to the ground, dis&#173;appeared into the darkness. I did not know
+    what to do, the less as the howl&#173;ing of the wolves grew closer; but while
+    I wondered the driver suddenly appeared again, and with&#173;out a word took
+    his seat, and we resumed our jour&#173;ney. I think I must have fallen asleep
+    and kept dream&#173;ing of the incident, for it seemed to be repeated
+    endlessly, and now look&#173;ing back, it is like a sort of awful nightmare.
+    Once the flame appeared so near the road, that even in the darkness
+    around us I could watch the driver’s motions. He went rapidly to where
+    the blue flame arose&#65279;—&#8239;it must have been very faint, for it did not seem
+    to illumine the place around it at all&#65279;—&#8239;and gather&#173;ing a few stones,
+    formed them into some device. Once there appeared a strange optical
+    effect: when he stood be&#173;tween me and the flame he did not obstruct it, for I could see its ghostly flicker all the same. This startled me, but as the effect was only momentary, I took it that my eyes deceived me strain&#173;ing through the darkness. Then for a time there were no blue
+    flames, and we sped on&#173;wards through the gloom, with the howl&#173;ing of the wolves around us, as though they were follow&#173;ing in a mov&#173;ing circle.
+    </p>
+
+    <p>At last there came a time when the driver went fur&#173;ther afield than he had yet gone, and dur&#173;ing his absence, the horses be&#173;gan to tremble worse
+    than ever and to snort and scream with fright. I could not see any cause
+    for it, for the howl&#173;ing of the wolves had ceased alto&#173;gether; but just
+    then the moon, sail&#173;ing through the black clouds, appeared behind the jagged crest of a beetl&#173;ing, pine-clad rock, and by its light I saw around us a r&#173;ing of wolves, with white teeth and loll&#173;ing red tongues,
+    with long, sinewy limbs and shaggy hair. They were a hundred times more
+    terri&#173;ble in the grim silence which held them than even when they howled.
+    For myself, I felt a sort of paralysis of fear. It is only when a man feels him&#173;self face to face with such horrors that he can un&#173;der&#173;stand
+    their true import.
+    </p>
+
+    <p>All at once the wolves be&#173;gan to howl as though the moonlight had had some peculiar effect on them. The horses jumped about and reared, and looked helplessly round with eyes that rolled in a way painful to see;
+    but the liv&#173;ing r&#173;ing of terror encompassed them on every side; and they
+    had perforce to remain within it. I called to the coachman to come, for it seemed to me that our only chance was to try to break out through the r&#173;ing and to aid his approach. I shouted and beat the side of the calèche, hop&#173;ing by the noise to scare the wolves from that side, so as to give him a chance of reach&#173;ing the trap. How he came there, I know
+    not, but I heard his voice raised in a tone of imperious command, and look&#173;ing to&#173;wards the sound, saw him stand in the roadway. As he swept his long arms, as though brush&#173;ing aside some impalpable obstacle, the wolves
+    fell back and back fur&#173;ther still. Just then a heavy cloud passed across
+    the face of the moon, so that we were again in darkness.
+    </p>
+
+    <p>When I could see again the driver was climb&#173;ing into the calèche,
+    and the wolves had dis&#173;appeared. This was all so strange and uncanny
+    that a dreadful fear came upon me, and I was afraid to speak or move.
+    The time seemed interminable as we swept on our way, now in almost complete
+    darkness, for the roll&#173;ing clouds obscured the moon. We kept
+    on ascend&#173;ing, with oc&#173;ca&#173;sion&#173;al periods of quick
+    descent, but in the main always ascend&#173;ing. Suddenly, I became
+    con&#173;scious of the fact that the driver was in the act of pull&#173;ing
+    up the horses in the courtyard of a vast ruined cas&#173;tle, from whose
+    tall black win&#173;dows came no ray of light, and whose broken
+    battle&#173;ments showed a jagged line against the moon&#173;lit sky.
+    </p>
+  </div>
+</body>
+</html>
